@@ -1,0 +1,43 @@
+.Condition{
+    /* border: 2px solid blue; */
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.checkbox{
+    height: 15%;
+    width: 80%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+ label{
+   
+    font-size: 1.5rem;
+    padding-left: 3rem;
+}
+.checkbox input[type=checkbox]{
+    /* border: 2px solid red; */
+    width: 5%;
+}
+
+.input-length{
+    /* border: 2px solid red; */
+    height: 15%;
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.input-length input{
+    width: 15%;
+    /* padding-right: 1rem; */
+    /* margin-right: 1rem; */
+}
